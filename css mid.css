@@ -1,0 +1,176 @@
+body{
+    margin:auto 10%; 
+    background:silver; 
+}
+
+#wraffer{
+    background-color:white;
+    width:100%; 
+    height:auto; 
+}
+
+#header_wraffer{
+    background-color:white;
+    width:100%;
+    height:200px; 
+    float:left; 
+}
+
+#logo{
+    background-color:green;
+    width:20%;
+    height: 200px;
+    float: left;
+    margin-right:0.3%;  
+
+}
+#logo img{
+    width:100%;
+    height:200px; 
+}
+
+#banner{
+    background-color:Gainsboro;
+    width:79.7%;
+    height: 200px;
+    float:left; 
+    color:green;
+    text-align:center;
+
+    font-size: 30px;
+
+
+}
+
+#menu{
+    background:Lavender ;
+    width:100%;
+    height:70px; 
+    margin-top:3px;
+    float:left; 
+
+}
+
+#menu ul{
+    margin:0px;
+    padding:0px; 
+    list-style-type: none;
+}
+
+#menu ul li{
+    float:left;
+    background:grey;
+    list-style-type: none;
+    margin-left:2px; 
+    font-size:20px;
+    padding:23px;
+    width:12.2%; 
+    height:70px;
+    text-align:center; 
+    transition:all 1s; 
+     
+    border-radius: 0px 0px; 
+}
+
+
+#menu ul li a{
+    text-decoration:none;
+    color:white; 
+}
+
+
+#menu ul :hover{
+    background: green;
+    color:white; 
+    transition:all 1s;
+    border-radius:  20px 20px ; 
+}
+#menu ul li :hover ul a li{
+   
+    list-style-type: none;
+    height: auto;
+    
+    
+    
+   
+}
+
+#slider{
+    background:white;
+    width:100%;
+    height:400px;
+float:left; 
+}
+
+#slider img{
+    width:100%;
+    height:400px; 
+}
+
+
+#content_wraffer{
+    background-color:white;
+    width:100%;
+    height:auto; 
+    margin-top:3px;
+    float:left; 
+}
+
+#left_content{
+    background-color:black;
+    width:20%;
+    height:auto; 
+    float:left;
+
+}
+#left_content ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#left_content ul li{
+    /*float:left;*/
+    background:gray;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:70px;*/ 
+    text-align:center; 
+}
+
+#left_content ul li a{
+    text-decoration:none;
+    color:white;
+    
+    float:left; 
+}
+
+#mid_content{
+    background-color:white;
+    width:60%;
+    height:auto; 
+    float:left;
+    margin-left:0.3%; 
+    padding:10px; 
+    
+}
+#right_content{
+    background-color:gray;
+    width:15%;
+    height:auto; 
+    margin-left:0.3%; 
+    padding:10px;
+    float:left;
+}
+
+#footer{
+    background:green;
+    width:100%;
+    height:70px; 
+    margin-top:3px;
+    float:left; 
+    text-align: center;
+    color:white; 
+}
